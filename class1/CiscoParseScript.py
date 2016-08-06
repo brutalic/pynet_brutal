@@ -17,6 +17,7 @@ for entry in crypto_find:
         print child.text
 
 
+#Listing all the Crypto entries that do not contain AES encryption
 no_aes_find = cisco_config.find_objects_wo_child(parentspec=r"^crypto map CRYPTO", childspec=r"AES")
 print "\n\nDisplaying all entries that do not contain AES encryption\n"
 for entry in no_aes_find:
