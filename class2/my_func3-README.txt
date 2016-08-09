@@ -7,6 +7,6 @@ Also, the main part I am doing this step is for the "git commit" portion to be m
 
 2. Run the BrutalModuleRead3.py script
 
-NOTE: No need to apply PYTHONPATH='~/applied_python/lib/python2.7/site-packages' like in the sexond exercise, because
+NOTE: No need to apply PYTHONPATH='~/applied_python/lib/python2.7/site-packages' like in the second exercise, because
       the listed path is already part of the default paths that python uses for modules' functioning.
 
