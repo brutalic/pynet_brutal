@@ -1,0 +1,10 @@
+"show ip interface brief\r\nInterface                  IP-Address      OK? Method\
+  \ Status                Protocol\r\nFastEthernet0              unassigned      YES\
+  \ unset  down                  down    \r\nFastEthernet1              unassigned\
+  \      YES unset  down                  down    \r\nFastEthernet2              unassigned\
+  \      YES unset  down                  down    \r\nFastEthernet3              unassigned\
+  \      YES unset  down                  down    \r\nFastEthernet4              10.220.88.20\
+  \    YES NVRAM  up                    up      \r\nVlan1                      unassigned\
+  \      YES unset  down                  down    \r\nVlan127                    unassigned\
+  \      YES unset  down                  down    \r\nVlan157                    unassigned\
+  \      YES unset  down                  down    \r\npynet-rtr1#"
