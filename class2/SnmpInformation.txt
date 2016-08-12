@@ -1,0 +1,10 @@
+pynet-rtr1.twb-tech.com
+...
+"Cisco IOS Software, C880 Software (C880DATA-UNIVERSALK9-M), Version 15.4(2)T1, RELEASE\
+  \ SOFTWARE (fc3)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright\
+  \ (c) 1986-2014 by Cisco Systems, Inc.\r\nCompiled Thu 26-Jun-14 14:15 by prod_rel_team"
+pynet-rtr2.twb-tech.com
+...
+"Cisco IOS Software, C880 Software (C880DATA-UNIVERSALK9-M), Version 15.4(2)T1, RELEASE\
+  \ SOFTWARE (fc3)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright\
+  \ (c) 1986-2014 by Cisco Systems, Inc.\r\nCompiled Thu 26-Jun-14 14:15 by prod_rel_team"
