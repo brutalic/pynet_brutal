@@ -1,0 +1,110 @@
+
+                time 1.00111699104
+             sysName pynet-rtr1.twb-tech.com
+           sysUptime 512457209
+         Fa4 ifDescr FastEthernet4
+      Fa4 ifInOctets 103875936
+   Fa4 ifInUcastPkts 790093
+     Fa4 ifOutOctets 238828964
+  Fa4 ifOutUcastPkts 784310
+
+
+                time 7.22944092751
+             sysName pynet-rtr1.twb-tech.com
+           sysUptime 512457832
+         Fa4 ifDescr FastEthernet4
+      Fa4 ifInOctets 103879432
+   Fa4 ifInUcastPkts 790114
+     Fa4 ifOutOctets 238833172
+  Fa4 ifOutUcastPkts 784331
+
+
+                time 13.4874489307
+             sysName pynet-rtr1.twb-tech.com
+           sysUptime 512458461
+         Fa4 ifDescr FastEthernet4
+      Fa4 ifInOctets 103879432
+   Fa4 ifInUcastPkts 790114
+     Fa4 ifOutOctets 238842430
+  Fa4 ifOutUcastPkts 784394
+
+
+                time 19.7507779598
+             sysName pynet-rtr1.twb-tech.com
+           sysUptime 512459086
+         Fa4 ifDescr FastEthernet4
+      Fa4 ifInOctets 103887814
+   Fa4 ifInUcastPkts 790170
+     Fa4 ifOutOctets 238842430
+  Fa4 ifOutUcastPkts 784394
+
+
+                time 25.9744579792
+             sysName pynet-rtr1.twb-tech.com
+           sysUptime 512459710
+         Fa4 ifDescr FastEthernet4
+      Fa4 ifInOctets 103892535
+   Fa4 ifInUcastPkts 790197
+     Fa4 ifOutOctets 238847017
+  Fa4 ifOutUcastPkts 784421
+
+
+                time 32.2459490299
+             sysName pynet-rtr1.twb-tech.com
+           sysUptime 512460336
+         Fa4 ifDescr FastEthernet4
+      Fa4 ifInOctets 103892535
+   Fa4 ifInUcastPkts 790197
+     Fa4 ifOutOctets 238847017
+  Fa4 ifOutUcastPkts 784421
+
+
+                time 38.5079898834
+             sysName pynet-rtr1.twb-tech.com
+           sysUptime 512460963
+         Fa4 ifDescr FastEthernet4
+      Fa4 ifInOctets 103899662
+   Fa4 ifInUcastPkts 790239
+     Fa4 ifOutOctets 238854380
+  Fa4 ifOutUcastPkts 784463
+
+
+                time 44.760794878
+             sysName pynet-rtr1.twb-tech.com
+           sysUptime 512461587
+         Fa4 ifDescr FastEthernet4
+      Fa4 ifInOctets 103903053
+   Fa4 ifInUcastPkts 790261
+     Fa4 ifOutOctets 238857993
+  Fa4 ifOutUcastPkts 784485
+
+
+                time 51.0133090019
+             sysName pynet-rtr1.twb-tech.com
+           sysUptime 512462212
+         Fa4 ifDescr FastEthernet4
+      Fa4 ifInOctets 103903053
+   Fa4 ifInUcastPkts 790261
+     Fa4 ifOutOctets 238857993
+  Fa4 ifOutUcastPkts 784485
+
+
+                time 57.2490930557
+             sysName pynet-rtr1.twb-tech.com
+           sysUptime 512462837
+         Fa4 ifDescr FastEthernet4
+      Fa4 ifInOctets 103909788
+   Fa4 ifInUcastPkts 790304
+     Fa4 ifOutOctets 238865398
+  Fa4 ifOutUcastPkts 784528
+
+
+                time 63.5316929817
+             sysName pynet-rtr1.twb-tech.com
+           sysUptime 512463462
+         Fa4 ifDescr FastEthernet4
+      Fa4 ifInOctets 103909788
+   Fa4 ifInUcastPkts 790304
+     Fa4 ifOutOctets 238871834
+  Fa4 ifOutUcastPkts 784564
+
