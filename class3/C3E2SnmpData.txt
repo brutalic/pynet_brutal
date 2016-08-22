@@ -1,0 +1,118 @@
+#The data below was collected over 1 hour and manually inputed into this text file 
+
+                time 1.00111794472
+             sysName pynet-rtr1.twb-tech.com
+         Fa4 ifDescr FastEthernet4
+      Fa4 ifInOctets 106040793
+   Fa4 ifInUcastPkts 800532
+     Fa4 ifOutOctets 241802147
+  Fa4 ifOutUcastPkts 795153
+
+
+                time 302.153403997
+             sysName pynet-rtr1.twb-tech.com
+         Fa4 ifDescr FastEthernet4
+      Fa4 ifInOctets 106050195
+   Fa4 ifInUcastPkts 800577
+     Fa4 ifOutOctets 241814878
+  Fa4 ifOutUcastPkts 795196
+
+
+                time 603.319037914
+             sysName pynet-rtr1.twb-tech.com
+         Fa4 ifDescr FastEthernet4
+      Fa4 ifInOctets 106060118
+   Fa4 ifInUcastPkts 800619
+     Fa4 ifOutOctets 241826687
+  Fa4 ifOutUcastPkts 795236
+
+
+                time 904.457396984
+             sysName pynet-rtr1.twb-tech.com
+         Fa4 ifDescr FastEthernet4
+      Fa4 ifInOctets 106100549
+   Fa4 ifInUcastPkts 800902
+     Fa4 ifOutOctets 241869533
+  Fa4 ifOutUcastPkts 795494
+
+
+                time 1205.80271387
+             sysName pynet-rtr1.twb-tech.com
+         Fa4 ifDescr FastEthernet4
+      Fa4 ifInOctets 106118017
+   Fa4 ifInUcastPkts 800994
+     Fa4 ifOutOctets 241889400
+  Fa4 ifOutUcastPkts 795584
+
+
+                time 1506.99981403
+             sysName pynet-rtr1.twb-tech.com
+         Fa4 ifDescr FastEthernet4
+      Fa4 ifInOctets 106126519
+   Fa4 ifInUcastPkts 801030
+     Fa4 ifOutOctets 241900815
+  Fa4 ifOutUcastPkts 795618
+
+
+                time 1808.15341902
+             sysName pynet-rtr1.twb-tech.com
+         Fa4 ifDescr FastEthernet4
+      Fa4 ifInOctets 106153212
+   Fa4 ifInUcastPkts 801231
+     Fa4 ifOutOctets 241928550
+  Fa4 ifOutUcastPkts 795789
+
+
+                time 2109.30903387
+             sysName pynet-rtr1.twb-tech.com
+         Fa4 ifDescr FastEthernet4
+      Fa4 ifInOctets 106175845
+   Fa4 ifInUcastPkts 801376
+     Fa4 ifOutOctets 241953232
+  Fa4 ifOutUcastPkts 795917
+
+
+                time 2410.49459291
+             sysName pynet-rtr1.twb-tech.com
+         Fa4 ifDescr FastEthernet4
+      Fa4 ifInOctets 106187843
+   Fa4 ifInUcastPkts 801435
+     Fa4 ifOutOctets 241968266
+  Fa4 ifOutUcastPkts 795974
+
+
+                time 2711.64939904
+             sysName pynet-rtr1.twb-tech.com
+         Fa4 ifDescr FastEthernet4
+      Fa4 ifInOctets 106208760
+   Fa4 ifInUcastPkts 801567
+     Fa4 ifOutOctets 241990677
+  Fa4 ifOutUcastPkts 796088
+
+
+                time 3012.831249
+             sysName pynet-rtr1.twb-tech.com
+         Fa4 ifDescr FastEthernet4
+      Fa4 ifInOctets 106219103
+   Fa4 ifInUcastPkts 801613
+     Fa4 ifOutOctets 242003278
+  Fa4 ifOutUcastPkts 796132
+
+
+                time 3313.94542003
+             sysName pynet-rtr1.twb-tech.com
+         Fa4 ifDescr FastEthernet4
+      Fa4 ifInOctets 106229225
+   Fa4 ifInUcastPkts 801658
+     Fa4 ifOutOctets 242015114
+  Fa4 ifOutUcastPkts 796175
+
+
+                time 3615.06939101
+             sysName pynet-rtr1.twb-tech.com
+         Fa4 ifDescr FastEthernet4
+      Fa4 ifInOctets 106238068
+   Fa4 ifInUcastPkts 801696
+     Fa4 ifOutOctets 242026935
+  Fa4 ifOutUcastPkts 796210
+
