@@ -1,0 +1,4 @@
+# class5/site.yml is the main file. This file talks to all the files that are under the sub-directories:
+# class5/roles/routers/tasks ../templates & ../vars. The site.yml is the main one and calls upon the main.yml under
+# the tasks subdirectory. That sub talks to the vars main sub directory, which is also tied to the templates sub.
+# etc...
