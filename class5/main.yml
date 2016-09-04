@@ -1,0 +1,10 @@
+---
+- element1
+- element2
+- element3
+- element4
+- key1: value1
+
+{key1: value1, key2: value2}
+
+# comments in YAML just like in PYTHON

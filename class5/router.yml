@@ -1,0 +1,23 @@
+---
+- hosts: localhost #this is the play. it could be a group of hosts, multiple set of machines
+  vars:
+    hostname: pynet-rtr1
+  tasks:
+    - name: Generate configuration file
+      template: src=/home/seremetkoski/pynet_brutal/class5/router1.j2
+                  dest=/home/seremetkoski/pynet_brutal/class5/router1.txt
+    - name: Action 2...
+      template: src=/home/seremetkoski/pynet_brutal/class5/router1.j2
+                  dest=/home/seremetkoski/pynet_brutal/class5/router1.txt
+   - name: Action 3...
+      template: src=/home/seremetkoski/pynet_brutal/class5/router1.j2
+                  dest=/home/seremetkoski/pynet_brutal/class5/router1.txt
+
+#The playbook is just a script
+#The play is just the action that is going to be executed on some set of hosts
+#And the task is just the action itself
+
+- hosts: servers
+  tasks:
+    - name: do something
+

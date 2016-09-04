@@ -1,0 +1,19 @@
+no service pad
+service tcp-keepalives-in
+service tcp-keepalives-out
+service timestamps debug datetime msec localtime show-timezone
+service timestamps log datetime msec localtime show-timezone
+service password-encryption
+!
+hostname pynet-rtr4
+!
+boot-start-maker
+boot-end-maker
+!
+logging buffered 32000
+no logging console
+!
+!
+interface loopback0
+ ip address 1.1.4.1 255.255.255.0
+ 

@@ -1,0 +1,5 @@
+---
+- name: Generate configuration file
+  template: src=router3.j2 dest=/home/seremetkoski/pynet_brutal/class5/roles/router/{{item.hostname}}.txt
+  with_items: test_routers
+
