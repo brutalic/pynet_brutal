@@ -1,12 +1,7 @@
 ---
 access_switch:
-  - {hostname: pynet-swt1, secret: pynet-swt1-class5, ip_addr: 1.1.1.1,
-        default_gatreway: 1.1.1.111, access_vlan: 10, snmp_community: pyclass5}
-  - {hostname: pynet-swt2, secret: pynet-swt2-class5, ip_addr: 1.1.2.1,
-        default_gatreway: 1.1.2.111, access_vlan: 20, snmp_community: pyclass5}
-  - {hostname: pynet-swt3, secret: pynet-swt3-class5, ip_addr: 1.1.3.1,
-        default_gatreway: 1.1.3.111, access_vlan: 30, snmp_community: pyclass5}
-  - {hostname: pynet-swt4, secret: pynet-swt4-class5, ip_addr: 1.1.4.1,
-        default_gatreway: 1.1.4.111, access_vlan: 40, snmp_community: pyclass5}
-  - {hostname: pynet-swt5, secret: pynet-swt5-class5, ip_addr: 1.1.5.1,
-        default_gatreway: 1.1.5.111, access_vlan: 50, snmp_community: pyclass5}
+  - {hostname: pynet-swt1, secret: pynet-swt1-class5, ip_addr: 1.1.1.1, default_gateway: 1.1.1.111, access_vlan: 10, snmp_community: pyclass5}
+  - {hostname: pynet-swt2, secret: pynet-swt2-class5, ip_addr: 1.1.2.1, default_gateway: 1.1.2.111, access_vlan: 20, snmp_community: pyclass5}
+  - {hostname: pynet-swt3, secret: pynet-swt3-class5, ip_addr: 1.1.3.1, default_gateway: 1.1.3.111, access_vlan: 30, snmp_community: pyclass5}
+  - {hostname: pynet-swt4, secret: pynet-swt4-class5, ip_addr: 1.1.4.1, default_gateway: 1.1.4.111, access_vlan: 40, snmp_community: pyclass5}
+  - {hostname: pynet-swt5, secret: pynet-swt5-class5, ip_addr: 1.1.5.1, default_gateway: 1.1.5.111, access_vlan: 50, snmp_community: pyclass5}

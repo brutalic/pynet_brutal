@@ -1,5 +1,4 @@
 ---
 - name: Generate switch configuration files
   template: src=C5E1access_switch.j2 dest=/home/seremetkoski/pynet_brutal/class5/C5E1/roles/switches/{{item.hostname}}.txt
-  with_items: "{{ access_switch }}"
-
+  with_items: access_switch
