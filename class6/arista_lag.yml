@@ -1,0 +1,14 @@
+---
+
+- name: Arista Trunking
+  hosts: arista
+
+  tasks:
+    - name: Arista LAG
+      eos_portchannel: name=Port-Channel1 enable=true description="LAG Interface" members=Ethernet3,Ethernet4 lacp_mode=active
+            username={{ eapi_username }}
+            password={{ eapi_password }}
+            host={{ eapi_hostname }}
+            port={{ eapi_port }}
+            transport=https
+

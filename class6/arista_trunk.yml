@@ -1,0 +1,22 @@
+---
+
+- name: Arista Trunking
+  hosts: arista
+
+  tasks:
+    - name: Configure Ethernet3 to trunk
+      eos_switchport: name=Ethernet3 mode=trunk trunk_native_vlan=1
+            username={{ eapi_username }}
+            password={{ eapi_password }}
+            host={{ eapi_hostname }}
+            port={{ eapi_port }}
+            transport=https
+
+    - name: Configure Ethernet4 to trunk
+      eos_switchport: name=Ethernet4 mode=trunk trunk_native_vlan=100 trunk_allowed_vlans=100,200
+            username={{ eapi_username }}
+            password={{ eapi_password }}
+            host={{ eapi_hostname }}
+            port={{ eapi_port }}
+            transport=https
+    

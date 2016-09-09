@@ -1,0 +1,10 @@
+pynet-sw2#sh vlan
+VLAN  Name                             Status    Ports
+----- -------------------------------- --------- -------------------------------
+1     default                          active    Cpu, Et1, Et2, Et3, Et4, Et5
+                                                 Et6, Et7
+100   BLUE                             active
+200   RED                              active
+300   GREEN                            active
+
+#this is after running ansible for the vlan module
