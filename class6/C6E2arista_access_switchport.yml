@@ -1,0 +1,23 @@
+---
+
+- name: Setting Interface to Access Mode - C6E2
+  hosts: arista
+
+  tasks:
+    - name: Setting Ethernet3 description
+      eos_interface: name=Ethernet3 description="*** IN USE ***"
+            username={{ eapi_username }}
+            password={{ eapi_password }}
+            host={{ eapi_hostname }}
+            port={{ eapi_port }}
+            transport=https
+
+    - name: Set Ethernet3 to access mode, VLAN333
+      eos_switchport: name={{ item }} mode=access access_vlan=333
+            username={{ eapi_username }}
+            password={{ eapi_password }}
+            host={{ eapi_hostname }}
+            port={{ eapi_port }}
+            transport=https
+      with_items:
+            - Ethernet3

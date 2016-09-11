@@ -1,0 +1,5 @@
+pynet-sw2#sh run int Ethernet 3
+interface Ethernet3
+   description *** IN USE ***
+   switchport access vlan 333
+
