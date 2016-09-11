@@ -1,0 +1,7 @@
+pynet-sw2#sh run int Ethernet 3
+interface Ethernet3
+   description *** IN USE ***
+   switchport access vlan 333
+   switchport trunk allowed vlan 111,222,333
+   switchport mode trunk
+
