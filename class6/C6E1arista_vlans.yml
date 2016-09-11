@@ -1,0 +1,30 @@
+---
+
+- name: Create Arista VLANs - C6E1
+  hosts: arista
+
+  tasks:
+    - name: create DUDE VLAN
+      eos_vlan: name=DUDE vlanid=111
+            username={{ eapi_username }}
+            password={{ eapi_password }}
+            host={{ eapi_hostname }}
+            port={{ eapi_port }}
+            transport=https
+    
+    - name: create PIZZA VLAN
+      eos_vlan: name=PIZZA vlanid=222
+            username={{ eapi_username }}
+            password={{ eapi_password }}
+            host={{ eapi_hostname }}
+            port={{ eapi_port }}
+            transport=https
+    
+    - name: create BEER VLAN
+      eos_vlan: name=BEER vlanid=333
+            username={{ eapi_username }}
+            password={{ eapi_password }}
+            host={{ eapi_hostname }}
+            port={{ eapi_port }}
+            transport=https
+
