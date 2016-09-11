@@ -1,0 +1,34 @@
+---
+
+- name: Arista Cleanup - C6E4
+  hosts: arista
+
+  tasks:
+    - name: Configure Ethernet3 for access mode, VLAN1
+      eos_switchport: name=Ethernet3 mode=access access_vlan=1 trunk_allowed_vlans=1-4094 trunk_native_vlan=1
+            username={{ eapi_username }}
+            password={{ eapi_password }}
+            host={{ eapi_hostname }}
+            port={{ eapi_port }}
+            transport=https
+
+    - name: Reset Ethernet3 description to default
+      eos_interface: name=Ethernet3 description=""
+            username={{ eapi_username }}
+            password={{ eapi_password }}
+            host={{ eapi_hostname }}
+            port={{ eapi_port }}
+            transport=https
+
+    - name: Remove VLANs
+      eos_vlan: name={{item.name}} vlanid={{item.vlanid}} state=absent
+            username={{ eapi_username }}
+            password={{ eapi_password }}
+            host={{ eapi_hostname }}
+            port={{ eapi_port }}
+            transport=https
+      with_items:
+        - {name: DUDE, vlanid: 111}
+        - {name: PIZZA, vlanid: 222}
+        - {name: BEER, vlanid: 333}
+
