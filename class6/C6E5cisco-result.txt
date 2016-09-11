@@ -1,0 +1,8 @@
+pynet-rtr1#more flash:C6E5cisco-int.txt
+interface FastEthernet2
+ ip address 6.6.6.6 255.255.255.252
+ description Class6 Ex 5 - testing
+
+pynet-rtr1#sh clock
+17:11:52.128 PDT Sat Sep 10 2016
+

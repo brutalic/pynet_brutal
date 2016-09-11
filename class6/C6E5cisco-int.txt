@@ -1,0 +1,3 @@
+interface FastEthernet2
+ ip address 6.6.6.6 255.255.255.252
+ description Class6 Ex 5 - testing

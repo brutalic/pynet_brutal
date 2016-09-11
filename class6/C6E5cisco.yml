@@ -1,0 +1,17 @@
+---
+
+- name: Cisco IOS - Interface change
+  hosts: cisco
+  gather_facts: False
+
+  tasks:
+  - name: Test for C6E5
+    cisco_file_transfer:
+      source_file="/home/seremetkoski/pynet_brutal/class6/C6E5cisco-int.txt"
+      dest_file=C6E5cisco-int.txt
+      overwrite=true
+      enable_scp=true
+      host={{ host }}
+      port={{ port }}
+      username={{ username }}
+      password={{ password }}
